@@ -1,0 +1,58 @@
+/* ------------------
+ styling for the tables 
+   ------------------   */
+
+
+body
+{
+	line-height: 1.6em;
+}
+
+
+
+#rounded-corner
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 15px;
+	
+	width: 480px;
+	text-align: center;
+	border-collapse: collapse;
+}
+#rounded-corner thead th.rounded-company
+{
+	background: #819FF0 ;
+}
+#rounded-corner thead th.rounded-q4
+{
+	background: #819FF0 ;
+}
+#rounded-corner th
+{
+	padding: 8px;
+	font-weight: normal;
+	font-size: 15px;
+	color: white;
+	background: #819FF0;
+}
+#rounded-corner td
+{
+	padding: 8px;
+	background: #F9F9F9;
+	border-top: 1px solid #fff;
+	color: #0C0B0B;;
+}
+#rounded-corner tfoot td.rounded-foot-left
+{
+	background: #e8edff ;
+}
+#rounded-corner tfoot td.rounded-foot-right
+{
+	background: #e8edff ;
+}
+#rounded-corner tbody tr:hover td
+{
+	background: white;
+}
+
+
